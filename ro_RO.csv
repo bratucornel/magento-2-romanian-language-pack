@@ -150,13 +150,13 @@
 %1' file extension is not supported,Extensia fisierului '%1' nu este acceptata,module,Magento_ImportExport
 %1's Wish List,Lista de dorinte a %1,module,Magento_Wishlist
 %1's Wishlist,Lista de Dorinte a %1,module,Magento_Wishlist
-%customer_name wants to share this Wish List from %store_name with you:,%nume_client doreste sa partajeze aceasta Lista de Dorinte de la %nume_magazin cu dumneavoastra:,module,Magento_Wishlist
-"%customer_name,","%nume_client,",module,Magento_Sales
-"%name,","%nume,",module,Magento_Customer
-"%name,","%nume,",module,Magento_ProductAlert
-"%name,","%nume,",module,Magento_Sales
-"%name,","%nume,",module,Magento_SendFriend
-"%name,","%nume,",module,Magento_User
+%customer_name wants to share this Wish List from %store_name with you:,%customer_name doreste sa partajeze aceasta Lista de Dorinte de la %store_name cu dumneavoastra:,module,Magento_Wishlist
+"%customer_name,","%customer_name,",module,Magento_Sales
+"%name,","%name,",module,Magento_Customer
+"%name,","%name,",module,Magento_ProductAlert
+"%name,","%name,",module,Magento_Sales
+"%name,","%name,",module,Magento_SendFriend
+"%name,","%name,",module,Magento_User
 %sender_name wants to share this product with you:,%nume_expeditor vrea sa partajeze acest produs cu dumneavoastra:,module,Magento_SendFriend
 "%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.","%value%' pare a fi un nume de gazda DNS, dar notatia punycode data nu poate fi decodata.",module,Magento_Customer
 "%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.","%value%' pare a fi un nume de gazda DNS, dar notatia punycode data nu poate fi decodata.",module,Magento_Eav
@@ -3517,7 +3517,7 @@ message,mesaj,module,Magento_Webapi
 Message,Mesaj,module,Magento_Webapi
 message,mesaj,module,Magento_Wishlist
 Message,Mesaj,module,Magento_Wishlist
-Message from %customer_name:,Mesaj de la %nume_client:,module,Magento_Wishlist
+Message from %customer_name:,Mesaj de la %customer_name:,module,Magento_Wishlist
 Message from %sender_name:,Mesaj de la %nume_expeditor:,module,Magento_SendFriend
 Message length must not exceed %1 symbols,Lungimea mesajului nu trebuie sa depaseasca %1 simboluri,module,Magento_Wishlist
 Message:,Mesaj:,module,Magento_Bundle
@@ -3639,7 +3639,7 @@ name,Nume,module,Magento_Widget
 Name and Address Options,Optiuni Nume si Adresa,module,Magento_Customer
 Name in %1,Nume în %1,module,Magento_Catalog
 Name is required,Nume necesar,module,Magento_Store
-Name: %name,Nume: %nume,module,Magento_Contact
+Name: %name,Nume: %name,module,Magento_Contact
 National Freight,Transport national,module,Magento_Fedex
 Near PayPal Credit checkout button,Butonul apropiat de checkout credit PayPal.,module,Magento_Paypal
 Need to Confirm,Confirmare necesara,module,Magento_Newsletter
@@ -6114,16 +6114,16 @@ Text,Text,module,Magento_CheckoutAgreements
 Text Area,Zona text,module,Magento_Eav
 Text Field,Camp text,module,Magento_Eav
 Text Swatch,Mostra text,module,Magento_Swatches
-Thank you for confirming your %store_name account.,Va multumim v-ati confirmat contul %nume_magazin.,module,Magento_Customer
+Thank you for confirming your %store_name account.,Va multumim v-ati confirmat contul %store_name.,module,Magento_Customer
 Thank you for registering with,Multumim pentru ca v-ati înregistrat la,module,Magento_Customer
 Thank you for registering with %1.,Va multumim ca v-ati înregistrat la %1.,module,Magento_Customer
 Thank you for subscribing to our newsletter.,Va multumim pentru abonarea la Buletinul nostru informativ.,module,Magento_Newsletter
-Thank you for your order from %store_name.,Va multumim pentru comanda de la %nume_magazin.,module,Magento_Sales
+Thank you for your order from %store_name.,Va multumim pentru comanda de la %store_name.,module,Magento_Sales
 Thank you for your purchase!,Va multumim pentru achizitie!,module,Magento_Checkout
 Thank you for your purchase!,Va multumim pentru achizitie!,module,Magento_Multishipping
 Thank you for your subscription.,Va multumim pentru abonare.,module,Magento_Newsletter
 "Thank you,","Va multumim,",module,Magento_User
-"Thank you, %store_name","Va multumim, %nume_magazin",module,Magento_Email
+"Thank you, %store_name","Va multumim, %store_name",module,Magento_Email
 Thanks for contacting us with your comments and questions. We'll respond to you very soon.,Va multumim ca ne-ati contactat pentru comentarii si întrebari. Va vom raspunde în cel mai scurt timp.,module,Magento_Contact
 Thanks for your order. We'll email you order details and tracking information.,Multumim pentru achizitie. Veti primi un email cu detaliile comenzii si informatiile de urmarire ale acesteia.,module,Magento_Multishipping
 The adapter object must be an instance of %1.,Obiectul adaptor trebuie sa fie o versiune a %1.,module,Magento_ImportExport
@@ -7370,7 +7370,7 @@ Weight vs. Destination,Greutate vs. Destinatie,module,Magento_OfflineShipping
 Weight:,Greutate:,module,Magento_Shipping
 Welcome Email,Email de Bun Venit,module,Magento_Customer
 Welcome Text,Text de Bun Venit,module,Magento_Theme
-Welcome to %store_name.,Bine ati venit la %nume_magazin.,module,Magento_Customer
+Welcome to %store_name.,Bine ati venit la %store_name.,module,Magento_Customer
 "Welcome, %1!","Bine ati venit, %1!",module,Magento_Persistent
 "Welcome, please sign in","Bun venit, conectati-va",module,Magento_Backend
 What are you looking for?,Ce cautati?,module,Magento_Bundle
