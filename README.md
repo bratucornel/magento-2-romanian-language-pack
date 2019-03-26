@@ -3,7 +3,7 @@
 ## Install via composer
 
 ```
-composer require bratucornel/magento-2-romanian-language-pack:dev-master
+composer require bratucornel/magento-2-romanian-language-pack
 ```
 
 ```
