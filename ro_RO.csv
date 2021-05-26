@@ -157,7 +157,7 @@
 "%name,","%name,",module,Magento_Sales
 "%name,","%name,",module,Magento_SendFriend
 "%name,","%name,",module,Magento_User
-%sender_name wants to share this product with you:,%nume_expeditor vrea sa partajeze acest produs cu dumneavoastra:,module,Magento_SendFriend
+%sender_name wants to share this product with you:,%sender_name vrea sa partajeze acest produs cu dumneavoastra:,module,Magento_SendFriend
 "%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.","%value%' pare a fi un nume de gazda DNS, dar notatia punycode data nu poate fi decodata.",module,Magento_Customer
 "%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.","%value%' pare a fi un nume de gazda DNS, dar notatia punycode data nu poate fi decodata.",module,Magento_Eav
 %value%' does not look like a valid local network name.,%value%' nu arata ca un nume de retea locala valid.,module,Magento_Customer
@@ -944,7 +944,7 @@ Basic Settings - PayPal Payments Pro Hosted Solution,Setari de baza - Solutie Pa
 Basic Settings - PayPal Website Payments Pro Hosted Solution,Setari de baza - Solutie PayPal de Plati Pro Gazduite Website,module,Magento_Paypal
 Bcc,Bcc,module,Magento_Config
 Be sure your store is in maintenance mode during backup.,Asigurati-va ca magazinul este în modul de întretinere în timpul crearii copiei de rezerva.,module,Magento_Backup
-Be the first to review this product,Fii primul în a afce o recenzie acestui produs,module,Magento_Review
+Be the first to review this product,Fii primul în a face o recenzie acestui produs,module,Magento_Review
 Before Discount,înainte de aplicarea reducerii,module,Magento_Tax
 Before modifying the store view code please make sure it is not used in index.php.,"înainte de a modifica codul vizualizarii magazinului, asigurati-va ca nu este folosit în index.php.",module,Magento_Backend
 Before modifying the website code please make sure it is not used in index.php.,"înainte de a modifica codul website-ului, asigurati-va ca nu este folosit în index.php.",module,Magento_Backend
@@ -1339,7 +1339,7 @@ Comment Text,Comentariu text,module,Magento_Sales
 Comment Text,Text comentariu,module,Magento_Shipping
 Comment:,Comentariu:,module,Magento_Wishlist
 Comment: %1<br/>,Comentariu: %1<br/>,module,Magento_Sales
-Comment: %comment,Comentariu: %comentariu,module,Magento_Contact
+Comment: %comment,Comentariu: %comment,module,Magento_Contact
 Comments History,Istoric comentarii,module,Magento_Sales
 Commercial,Comercial,module,Magento_Ups
 Company,Companie,module,Magento_Braintree
@@ -2895,7 +2895,7 @@ If there is an account associated with %1 you will receive an email with a link 
 "If you did not request this change, please contact us.","Daca nu dumneavoastra ati facut aceasta solicitare, contactati-ne.",module,Magento_User
 "If you do not have multiple users set up on your account, please re-enter your Vendor/Merchant Login here.","Daca aveti utilizatori multipli încrisi pe contul dumneavoastra, reintroduceti datele de conectare la contul de Furnizor/Comerciant aici.",module,Magento_Paypal
 "If you have an account, sign in with your email address.","Daca aveti un cont creat, conectati-va cu adresa de email.",module,Magento_Customer
-"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","Daca aveti întrebari referitoare la comanda dumneavoastra, ne puteti trimite email la <a href=""mailto:%email_magazin"">%email_magazin</a>",module,Magento_Sales
+"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","Daca aveti întrebari referitoare la comanda dumneavoastra, ne puteti trimite email la <a href=""mailto:%store_email"">%store_email</a>",module,Magento_Sales
 "If you requested this change, reset your password here:","Daca dumneavoastra ati solicitat aceasta schimbare, setati parola noua aici:",module,Magento_User
 "If you requested this change, set a new password here:","Daca dumneavoastra ati solicitat aceasta schimbare, setati parola noua aici:",module,Magento_Customer
 If you select and save the rule you will be able to generate multiple coupon codes.,Daca selectati si salvati regula veti putea genera coduri de cupon multiple.,module,Magento_SalesRule
@@ -3518,7 +3518,7 @@ Message,Mesaj,module,Magento_Webapi
 message,mesaj,module,Magento_Wishlist
 Message,Mesaj,module,Magento_Wishlist
 Message from %customer_name:,Mesaj de la %customer_name:,module,Magento_Wishlist
-Message from %sender_name:,Mesaj de la %nume_expeditor:,module,Magento_SendFriend
+Message from %sender_name:,Mesaj de la %sender_name:,module,Magento_SendFriend
 Message length must not exceed %1 symbols,Lungimea mesajului nu trebuie sa depaseasca %1 simboluri,module,Magento_Wishlist
 Message:,Mesaj:,module,Magento_Bundle
 Message:,Mesaj:,module,Magento_Downloadable
@@ -3982,7 +3982,7 @@ Options Details,Detalii Optiuni,module,Magento_Wishlist
 or,sau,module,Magento_Braintree
 or,sau,module,Magento_Customer
 or,sau,module,Magento_Paypal
-"or call us at <a href=""tel:%store_phone"">%store_phone</a>","sau sunati-ne la <a href=""tel:%telefon_magazin"">%telefon_magazin</a>",module,Magento_Sales
+"or call us at <a href=""tel:%store_phone"">%store_phone</a>","sau sunati-ne la <a href=""tel:%store_phone"">%store_phone</a>",module,Magento_Sales
 Order,Comanda,module,Magento_Backend
 Order,Comanda,module,Magento_Customer
 Order,Comanda,module,Magento_Paypal
@@ -4078,7 +4078,7 @@ ort,Cumparaturi facile,module,Magento_Dhl
 Other,Altele,module,Magento_Usps
 Other items in your order,Alte articole din comanda dumneavoastra,module,Magento_Multishipping
 Others,Altele,module,Magento_Dhl
-"Our hours are <span class=""no-link"">%store_hours</span>.","Programul nostru este <span class=""no-link"">%program_magazin</span>.",module,Magento_Sales
+"Our hours are <span class=""no-link"">%store_hours</span>.","Programul nostru este <span class=""no-link"">%store_hours</span>.",module,Magento_Sales
 Out of stock,Epuizat din stoc,module,Magento_Bundle
 Out of Stock,Epuizat din stoc,module,Magento_Catalog
 Out of stock,Epuizat din stoc,module,Magento_Catalog
@@ -4297,14 +4297,14 @@ Phone,Telefon,module,Magento_Sales
 Phone Number,Numar de telefon,module,Magento_Contact
 Phone Number,Numar de telefon,module,Magento_Customer
 Phone Number,Numar de telefon,module,Magento_Sales
-Phone Number: %telephone,Numar de telefon: %telefon,module,Magento_Contact
+Phone Number: %telephone,Numar de telefon: %telephone,module,Magento_Contact
 PHP SOAP extension is required.,Extensia PHP SOAP este necesara.,module,Magento_Customer
 Phrase,Fraza,module,Magento_Theme
 Pickup Method,Modalitate ridicare,module,Magento_Ups
 Place Order,Plasati comanda,module,Magento_Multishipping
 Place Order,Plaseaza comanda,module,Magento_Paypal
 Placed from IP,Plasata de la IP-ul,module,Magento_Sales
-"Placed on <span class=""no-link"">%created_at</span>","Plasat la <span class=""no-link"">%creat_la</span>",module,Magento_Sales
+"Placed on <span class=""no-link"">%created_at</span>","Plasat la <span class=""no-link"">%created_at</span>",module,Magento_Sales
 Platinum Partners,Parteneri Platina,module,Magento_Marketplace
 Please add rows to option.,Adaugati randuri la optiune.,module,Magento_Catalog
 Please agree to all Terms and Conditions before placing the order.,Trebuie sa fiti de acord cu toti Termenii si conditiile pentru a plasa comanda.,module,Magento_Multishipping
@@ -5563,8 +5563,8 @@ Shipping Report,Raport livrari,module,Magento_Reports
 Shipping Settings,Setari livrare,module,Magento_Shipping
 Shipping State/Province,Stat/Zona livrare,module,Magento_SalesRule
 Shipping To,Livrare la,module,Magento_Multishipping
-Shop By,Cumparati dupa,module,Magento_Catalog
-Shop By,Cumpara de la,module,Magento_LayeredNavigation
+Shop By,Filtre,module,Magento_Catalog
+Shop By,Filtre,module,Magento_LayeredNavigation
 Shop now using (150 X 40),Cumparati acum folosind (150 X 40),module,Magento_Paypal
 Shop now using (150 X 60),Cumparati acum folosind (150 X 60),module,Magento_Paypal
 Shopping Cart,Cos de cumparaturi,module,Magento_Checkout
@@ -5760,7 +5760,7 @@ Something went wrong. Please try again.,A avut loc o eroare. încercati din nou,
 "Sorry, we haven't installed the base currency you selected.","Ne cerem scuze, moneda implicita nu este instalata.",module,Magento_Config
 "Sorry, we haven't installed the default display currency you selected.","Ne cerem scuze, moneda implicita afisata nu este instalata.",module,Magento_Config
 "Sorry, we're unable to complete this request.","Ne cerem scuze, nu s-a putut finaliza solicitarea.",module,Magento_Catalog
-Sort By,Sortati dupa,module,Magento_Catalog
+Sort By,"",module,Magento_Catalog
 Sort Custom Option,Sortati optiuni personalizare,module,Magento_Catalog
 Sort Custom Options,Sortati optiuni personalizare,module,Magento_Catalog
 Sort Option,Sortati optiune,module,Magento_Catalog
@@ -6242,8 +6242,8 @@ The message has been marked as Read.,Mesajul a fost marcat ca Citit.,module,Mage
 The message has been removed.,Mesajul a fost eliminat.,module,Magento_AdminNotification
 The most money available to refund is %1.,Suma maxima disponibila pentru retituire este de %1.,module,Magento_Sales
 The most you may purchase is %1.,Cantitatea maxima de achizitie este de %1.,module,Magento_CatalogInventory
-"The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
-  information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","Noua integrare Relic necesita agentul newrelic-php5, care nu este instalat. 
+"The New Relic integration requires the newrelic-php5 agent, which is not installed. More
+  information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","Noua integrare Relic necesita agentul newrelic-php5, care nu este instalat.
  Mai multe informatii despre instalarea agentului sunt disponibile <a target=""_blank"" href=""%1"">aici</a>.",module,Magento_NewRelicReporting
 The newsletter template has been deleted.,sablonul buletinului informativ a fost sters.,module,Magento_Newsletter
 The newsletter template has been saved.,sablonul buletinului informativ a fost salvat.,module,Magento_Newsletter
@@ -6596,7 +6596,7 @@ To Percentage,La procentaj,module,Magento_CatalogRule
 To Percentage,La procentaj,module,Magento_SalesRule
 "To see product price, add this item to your cart. You can always remove it later.","Pentru a vedea pretul produsului, adaugati acest articol în cosul dumneavoastra. îl puteti sterge oricand.",module,Magento_Msrp
 "To show VAT number on Storefront, set Show VAT Number on Storefront option to Yes.","Pentru a afisa numarul TVA în Vitrina, setati optiunea Afisati Numar TVA în Vitrina la DA.",module,Magento_Customer
-"To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","Pentru conectarea pe site-ul nostru si setarea unei parole, facesi click pe <a href=""%creati_parola_url"">link</a>:",module,Magento_Customer
+"To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","Pentru conectarea pe site-ul nostru si setarea unei parole, facesi click pe <a href=""%create_password_url"">link</a>:",module,Magento_Customer
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Pentru a va conecta pe site-ul nostru, folositi credentialele în timpul checkout-ului sau pe pagina <a href=""%customer_url"">Contul Meu</a> :",module,Magento_Customer
 "To use PayPal Payflow Link, you must configure your PayPal Payflow Link account on the PayPal website.","Pentru a folosi link-ul pentru debitul de plata PayPal, trebuie sa va configurati contul link al debitului de plata PayPal pe website-ul PayPal.",module,Magento_Paypal
 "To use PayPal Payments Advanced, you must configure your PayPal Payments Advanced account on the PayPal website.","Pentru folosirea platilor avansate PayPal, trebuie sa va configurati contul de plati avansate PayPal pe website-ul PayPal.",module,Magento_Paypal
@@ -7063,7 +7063,7 @@ Vul hier een geldige datum in.,Vul hier een geldige datum in.,module,Magento_Ui
 Warning message,Mesaj de avertisment,module,Magento_Catalog
 Warning tax configuration can result in rounding errors.,"Avertisment, configuratia taxelor poate rezulta în erori de rotunjire.",module,Magento_Tax
 "Warning tax discount configuration might result in different discounts
-  than a customer might expect.","Avertisment, configuratia de reducere a taxelor poate rezulta în reduceri diferite 
+  than a customer might expect.","Avertisment, configuratia de reducere a taxelor poate rezulta în reduceri diferite
   decat cele asteptate de client.",module,Magento_Tax
 WARNING:,AVERTISMENT:,module,Magento_Directory
 Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.,Avertisment! Activarea acestei caracteristici nu este recomandata în medii de productie deoarece prezinta un potential risc pentru securitate.,module,Magento_Backend
@@ -7479,7 +7479,7 @@ You are trying to add a quantity for some products that doesn't match the quanti
 You assigned the order status.,Ati atribuit statusul comenzii.,module,Magento_Sales
 You can buy %1 only in quantities of %2 at a time.,Puteti cumpara %1 numai în cantitati de %2 pe comanda.,module,Magento_CatalogInventory
 You can buy this product only in quantities of %1 at a time.,Puteti cumpara acest produs numai în cantitati de %1 pe comanda.,module,Magento_CatalogInventory
-"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Puteti verifica statusul comenzii dumneavoastra prin <a href=""%cont_url"">conectare la contul dumneavoastra</a>.",module,Magento_Sales
+"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Puteti verifica statusul comenzii dumneavoastra prin <a href=""%account_url"">conectare la contul dumneavoastra</a>.",module,Magento_Sales
 You can leave this box blank if you don't want to add a gift message for the item.,Puteti lasa aceasta casuta goala daca nu doriti sa adaugati un mesaj cadou pentru articol.,module,Magento_GiftMessage
 You can leave this box blank if you don't want to add a gift message for this address.,Puteti lasa aceasta casuta goala daca nu doriti sa adaugati un mesaj cadou pentru aceasta adresa.,module,Magento_GiftMessage
 You can not cancel Credit Memo,Nu puteti anula o Nota de Credit,module,Magento_Sales
@@ -7576,7 +7576,7 @@ You have signed out and will go to our homepage in 5 seconds.,V-ati deconectat s
 You have submitted no reviews.,Nu ati trimis nici o recenzie.,module,Magento_Review
 You have unassigned the order status.,Ati anulat statusul comenzii.,module,Magento_Sales
 You moved the category,Ati mutat categoria,module,Magento_Catalog
-You must confirm your %customer_email email before you can sign in (link is only valid once):,Trebuie sa confirmati adresa dumneavoastra de %email_client înainte de a va conecta (link-ul este valid o singura data):,module,Magento_Customer
+You must confirm your %customer_email email before you can sign in (link is only valid once):,Trebuie sa confirmati adresa dumneavoastra de %customer_email înainte de a va conecta (link-ul este valid o singura data):,module,Magento_Customer
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Trebuie sa va activati contul. Verificati-va adresa de email pentru confirmarea contului sau <a href=""%1"">faceti click aici</a> pentru un link nou.",module,Magento_Checkout
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Trebuie sa va activati contul. Verificati-va adresa de email pentru codul de confirmare sau <a href=""%1"">faceti click aici</a> pentru un link nou.",module,Magento_Customer
 You need an authorization transaction to void.,Aveti nevoie de o tranzactie de autorizare pentru anulare.,module,Magento_Paypal
@@ -7660,17 +7660,17 @@ You've met your limit of %1 sends in an hour.,Ati atins limita de %1 trimiteri �
 Your billing agreement # is:,Acordul dumneavoastra de facturare # este:,module,Magento_Paypal
 Your credit card will be charged for,Din cardul dumneavoastra de credit de va retrage suma,module,Magento_Paypal
 Your credit card will be charged for,Din cardul dumneavoastra de credit se va retrage suma,module,Magento_Tax
-Your Credit Memo #%creditmemo_id for Order #%order_id,Nota dumneavoastra de credit #%id_notacredit pentru comanda #%id_comanda,module,Magento_Sales
+Your Credit Memo #%creditmemo_id for Order #%order_id,Nota dumneavoastra de credit #%creditmemo_id pentru comanda #%order_id,module,Magento_Sales
 Your current currency is: %1.,Moneda dumneavoastra : %1.,module,Magento_Directory
 Your Customization,Personalizarea dumneavoastra,module,Magento_Bundle
 "Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted, try to use larger file-size image.","Logo-ul dumneavoastra implicit va fi folosit în documente PDF si HTML.<br />(jpeg, tiff, png) Daca imaginea pdf este distorsionata, încercati utilizarea unei imagini de o marime mai mare.",module,Magento_Sales
-Your Invoice #%invoice_id for Order #%order_id,Factura dumneavoastra #%id_factura pentru Comanda #%id_comanda,module,Magento_Sales
+Your Invoice #%invoice_id for Order #%order_id,Factura dumneavoastra #%invoice_id pentru Comanda #%order_id,module,Magento_Sales
 Your Kount ID,ID-ul contuluidumneavoastra,module,Magento_Braintree
 Your Language,Limba dumneavoastra:,module,Magento_Store
 Your Language:,Limba dumneavoastra:,module,Magento_Store
 Your order # is: <span>%1</span>.,Comanda dumneavoastra # este: <span>%1</span>.,module,Magento_Checkout
-Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.,Comanda dumneavoastra #%id_crestere a fost actualizata la statusul de <strong>%status_comanda</strong>.,module,Magento_Sales
-"Your Order <span class=""no-link"">#%increment_id</span>","Comanda dumneavoastra <span class=""no-link"">#%id_crestere</span>",module,Magento_Sales
+Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.,Comanda dumneavoastra #%increment_id a fost actualizata la statusul de <strong>%order_status</strong>.,module,Magento_Sales
+"Your Order <span class=""no-link"">#%increment_id</span>","Comanda dumneavoastra <span class=""no-link"">#%increment_id</span>",module,Magento_Sales
 Your order number is:,Numarul comenzii dumneavoatra este:,module,Magento_Multishipping
 Your order number is: %1.,Numarul comenzii dumneavoastra este: %1.,module,Magento_Checkout
 Your order numbers are:,Numerele comenzii dumneavoastra sunt:,module,Magento_Multishipping
@@ -7689,7 +7689,7 @@ Your Review,Recenzia dumneavoastra,module,Magento_Review
 "Your search query can't be longer than %1, so we shortened your query.","Interogarea dumneavoastra de cautare nu poate fi mai lunga de %1, asadar, v-am scurtat interogarea de cautare.",module,Magento_Search
 Your search returned no results.,Nu s-au gasit rezultate pentru cautare.,module,Magento_CatalogSearch
 Your session has expired,Sesiunea dumneavoastra a expirat,module,Magento_Checkout
-Your Shipment #%shipment_id for Order #%order_id,Livrarea dumneavoastra #%id_livrare pentru Comanda #%id_comanda,module,Magento_Sales
+Your Shipment #%shipment_id for Order #%order_id,Livrarea dumneavoastra #%shipment_id pentru Comanda #%order_id,module,Magento_Sales
 Your shipping confirmation is below. Thank you again for your business.,Confirmarea dumneavoastra de livrare este mai jos. Va multimim din nou pentru activitatea dumneavoastra.,module,Magento_Sales
 Your shopping cart has been updated with new prices.,Cosul dumneavoastra de cumparaturi a fost actualizat cu preturi noi.,module,Magento_Persistent
 Your subscription has been confirmed.,Abonarea dumneavoastra a fost confirmata.,module,Magento_Newsletter
